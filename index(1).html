@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WCBCafe</title>
+    <link href="https://fonts.googleapis.com/css?family=Philosopher&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <meta name="description" content="명품 블렌드 커피와 유기농 음식을 제공하는 카페">
+    <!--style-->
+  <style>
+      h2 {font-family: 'Philosopher';}
+      a {text-decoration: none;}
+      img { max-width: 100%; }
+      .wrapper{
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 0 4%;
+      }
+      .home-content{
+      text-align: center;
+      margin-top: 10%;
+      }
+      .home-content p{
+        font-size: 1.123rem;
+        margin: 10px 0 80px;  /*위, 좌, 우, 아래*/ 
+      }      
+      .page-title{
+        font-size: 5rem;
+        text-transform: uppercase;
+        font-weight: normal;
+      }
+      .button{
+       font-size: 1.375rem;
+       background-color: #00bbdd;
+       color: #ffffff;
+       border-radius: 5px;
+       padding: 18px 80px;       
+      }
+      .button:hover{
+        background-color: #0090aa;
+      } 
+      .logo{
+      width: 210px;
+      margin-top: 20px;      
+      }
+      *{
+      margin: 0em;      
+      }
+      body{
+      width: 1100px;
+      }
+      .page-header{
+      display: flex;
+      justify-content: space-between;
+      }
+      .main-nav{
+      display: flex;
+      font-size: 1.30rem;
+      text-transform:uppercase;
+      margin-top: 34px;
+      list-style: none;
+      }
+      .main-nav li{
+      margin-left: 36px;      
+      }
+      .main-nav a{
+      color: #79522b;
+      }
+      .main-nav a:hover{
+      color: #00bbdd;
+      }    
+  </style>
+</head>
+<body> 
+  <style>
+    #home{
+      background-image: url(./images/main-bg.jpg);
+      min-height: 100vh;
+      background-size: cover;
+      background-position: center top;
+      background-repeat: no-repeat;
+    }
+  </style>
+  
+  <div id="home" class="big-bg">
+    <header class="page-header wrapper">
+    <h1><a href="index.html"><img src="images/logo.svg" alt="WCB 카페 홈" class="logo"></a></h1> 
+    <nav>
+    <ul class="main-nav">
+      <li><a href="news.html">News</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    </nav>
+</header> 
+</div>
+  
+<div class="home-content wrapper">  
+<h2 class="page-title">We'll Make Your Day</h2>
+<p>멋진 카페에서 힐링 시간을 가지세요. 첨가물을 넣지 않은 재료로 건강한 음식을 만듭니다.</p>
+  <a href="menu.html" class="button">메뉴보기</a></div>  
+</body>
+</html>
