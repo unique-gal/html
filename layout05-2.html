@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Layout05-1</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      #wrap {
+        width: 100%;
+        height: 100%;
+        color: #fff;
+        font-size: 30px;
+        text-transform: uppercase;
+        text-align: center;
+      }
+      #header {
+        height: 100px;
+        background: #8d6e63;
+      }
+      #banner {
+        height: 300px;
+        background: #a1887f;
+      }
+      #content {
+        height: 500px;
+        background: #bcaaa4;
+      }
+      #footer {
+        height: 100px;
+        background: #d7ccc8;
+      }
+      .header-container {
+        width: 1000px;
+        height: 100px;
+        background: #3e2723;
+        margin: 0 auto;
+        line-height: 100px;
+      }
+      .banner-container {
+        width: 1000px;
+        height: 300px;
+        background: #4e342e;
+        margin: 0 auto;
+        line-height: 300px;
+      }
+      .middle {
+        width: 1000px;
+        height: 500px;
+        margin: 0 auto;
+      }
+      .content-container {
+        width: 70%;
+        height: 500px;
+        background: #5d4037;
+        line-height: 500px;
+        float: left;
+      }
+      .side-container {
+        width: 30%;
+        height: 500px;
+        background: #3e2723;
+        line-height: 500px;
+        float: left;
+      }
+
+      .footer-container {
+        width: 1000px;
+        height: 100px;
+        background: #6d4c41;
+        margin: 0 auto;
+        line-height: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrap">
+      <div id="header">
+        <div class="header-container">header</div>
+      </div>
+      <div id="banner">
+        <div class="banner-container">banner</div>
+      </div>
+      <div id="content">
+        <div class="middle">
+          <div class="side-container">side</div>
+          <div class="content-container">content</div>
+        </div>
+      </div>
+      <div id="footer">
+        <div class="footer-container">footer</div>
+      </div>
+    </div>
+  </body>
+</html>
